@@ -1,0 +1,15 @@
+main{
+    background-image: url('./resources/bgimg.jpg'); 
+    height: 565px;
+}
+#wallet{
+    border-radius: 50%;
+
+}
+.login{
+    background: rgba(238, 243, 248, 0.6);
+}
+button {   
+    color: rgb(50, 3, 238) 76, 175);     
+}   
+

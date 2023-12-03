@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="login.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>LogIn</title>
+</head>
+<body>
+    <header>
+        <nav class="bg-white pl-32 py-10 text-2xl tracking-tighter font-medium">
+            SMART-WALLET
+        </nav>
+        
+    </header>
+    <main class="bg-cover pl-32 py-32 flex flex-row gap-7 ">
+        <section class="w-1/2" >
+            <div  class="bg-white rounded-md py-5 flex flex-row mb-6 px-44">
+                <img src="./resources/wallet.jpeg" alt="" height="6" width="30">
+                <h1 class="text-xl font-medium">Wallet Manager</h1>
+            </div>
+            <img src="./resources/wallet1.webp" alt="wallet-picture" height="150" width="150" id="wallet" class="m-auto">
+            <p class="mt-2 mb-6 text-center">The web application is developed by Sanjida Afrin Tanha. Tanha is  a <br>FullStack Developer(MERN). Heir him to grow your technology faster.
+
+            </p>
+            
+            <div class="flex flex-row gap-4 justify-center">
+                <button>
+                    <i class='bx bxl-facebook-circle text-3xl'></i>
+                </button>
+                <button>
+                    <i class='bx bxl-github text-3xl'></i>
+                </button>
+                <button>
+                    <i class='bx bxl-telegram text-3xl' ></i>
+                </button>
+            </div>
+        </section>
+
+
+        <section class="login rounded-md w-1/2 h-fit pb-10">
+            
+            <p class="login-p text-3xl font-medium px-10 py-10">User Login</p>
+            <div class="space-y-4">
+                <div class="flex flex-col px-10 space-y-1"> 
+                    <label class="font-medium">Email address : </label>   
+                    <input type="email" id="email" placeholder=" Enter your email" name="email" required class="rounded-md h-10">
+                </div>  
+                <div class="flex flex-col px-10 space-y-1">    
+                    <label class="font-medium">Password : </label>   
+                    <input type="password" id="password" placeholder=" Enter Password" name="password" required class="rounded-md h-10">
+                </div>
+                <div class="flex flex-col px-10"> 
+                    <button onclick="login_now()" class="bg-blue-800 text-white h-10 w-24 rounded-md" type="submit">Login now</button> 
+                </div>    
+            </div>
+        
+        </section>
+    </main>
+    <footer>
+        <div class="footer_container h-fit bg-white pl-32 py-9">
+            <section class="flex flex-row justify-around">
+                <div >
+                    <ul class="flex flex-row gap-3">
+                        <li class="font-medium text-sm tracking-tighter ">ABOUT</li>
+                        <li class="font-medium text-sm tracking-tighter ">HOW IT WORKS</li>
+                        <li class="font-medium text-sm tracking-tighter ">CONTACT</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="font-medium text-2xl">SMART-WALLET</p>
+                </div>
+                <div>
+                    <ul class="flex flex-row gap-3">
+                        <li class="font-medium text-sm tracking-tighter ">Sign up</li>
+                        <li class="font-medium text-sm tracking-tighter ">Login</li>
+                    </ul>
+                </div>
+                <div class="flex flex-row gap-3">
+                    <button>
+                        <i class='bx bxl-facebook'></i>
+                    </button>
+                    <button>
+                        <i class='bx bxl-instagram'></i>
+                    </button>
+                    <button>
+                        <i class='bx bxl-youtube' ></i>
+                    </button>
+                </div>
+
+            </section>
+            <hr class="border-black mt-2">
+            <section class="flex justify-between px-16 pt-4">
+                <div class=" text-[#565B58] text-xs">Copyright © 2020.Tanha Creative </div>
+                <div class=" text-[#565B58] text-xs">Design by Tanha</div>
+                
+            </section>
+            
+        </div>
+    </footer>
+    <script src="login.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+main{
+    background-image: url('./resources/bgimg.jpg'); 
+    height: 600px;
+}
+.opecity1{
+    background: rgba(6, 163, 53, 0.8);
+}
+.opecity2{
+    background: rgba(179, 33, 4, 0.878);
+}
+.opecity3{
+    background: rgba(6, 94, 216, 0.8);
+}
